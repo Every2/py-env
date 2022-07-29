@@ -2,7 +2,7 @@ import {command} from 'cleye'
 import fs from 'fs/promises'
 import cp from 'child_process' 
 import path from 'path'
-import {AppError} from '@/lib'
+import {AppError} from '../lib'
 
 
 

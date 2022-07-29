@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import {cli} from 'cleye'
-import {install, lint, sec, test} from '@/commands'
+import {install, lint, sec, test} from './commands'
 
 const args = cli(
     {

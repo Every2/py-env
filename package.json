@@ -1,7 +1,9 @@
 {
   "bin": { "py-env" : "./dist/index.js"},
-  "version": "1.0.0",
+  "name": "py-env",
+  "version": "1.0.1",
   "main": "./dist/index.js",
+  "repository": "https://github.com/Every2/py-env.git",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules src/index.ts",
     "build": "tsc --build"
